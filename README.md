@@ -41,11 +41,13 @@ Then set the font of that cell to **Libre Barcode 128** (available in Google She
 
 ### Example
 
-| Column A (Input) | Column B (Formula) | Column C (Display) |
-|---|---|---|
-| `ABC123456DEF` | `=BARCODE128(A1)` | Set font to Libre Barcode 128 |
-| `9876543210` | `=BARCODE128(A2)` | Set font to Libre Barcode 128 |
-| `Hello` | `=BARCODE128(A3)` | Set font to Libre Barcode 128 |
+| Column A (Input) | Column B (Formula & Display) |
+|---|---|
+| `ABC123456DEF` | `=BARCODE128(A1)` |
+| `9876543210` | `=BARCODE128(A2)` |
+| `Hello` | `=BARCODE128(A3)` |
+
+Set the font of the formula cells to **Libre Barcode 128** to display the barcode.
 
 ## Supported Input
 

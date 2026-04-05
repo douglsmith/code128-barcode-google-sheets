@@ -1,19 +1,11 @@
 /**
- * Encodes a string for display with the Libre Barcode 128 font.
+ * Encodes text as a Code 128 barcode for use with the Libre Barcode 128 font.
  *
- * Produces an optimized Code 128 barcode by automatically switching between
- * Code Sets A, B, and C to minimize barcode length. Calculates the required
- * checksum and appends start/stop symbols.
+ * Set the cell's font to "Libre Barcode 128" (available via Google Fonts in the
+ * font picker) and increase the font size to 36pt or larger for best results.
  *
- * Usage:
- *   1. Open your Google Sheet.
- *   2. Go to Extensions > Apps Script.
- *   3. Paste this entire file into the script editor and save.
- *   4. In a cell, use: =BARCODE128("YourTextHere") or =BARCODE128(A1)
- *   5. Set that cell's font to "Libre Barcode 128" (available on Google Fonts).
- *
- * @param {string} text  The text to encode as a Code 128 barcode.
- * @return {string}      The encoded string to render with Libre Barcode 128 font.
+ * @param {string} text  The text to encode (up to 128 ASCII characters).
+ * @return {string}      The encoded barcode string.
  * @customfunction
  */
 function BARCODE128(text) {
