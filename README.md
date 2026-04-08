@@ -1,4 +1,4 @@
-# Code 128 Encoder for Google Sheets
+# Code 128 Barcode Encoder for Google Sheets
 
 A Google Apps Script custom function that encodes text for use with the [Libre Barcode 128](https://fonts.google.com/specimen/Libre+Barcode+128) font, producing scannable Code 128 barcodes directly in Google Sheets.
 
